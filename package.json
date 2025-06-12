@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-music",
+  "version": "1.0.0",
+  "description": "Complete Discord Music Bot with YouTube and Spotify support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "music", "youtube", "spotify"],
+  "author": "0xkhass",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "@discordjs/opus": "^0.9.0",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5",
+    "youtube-sr": "^4.3.11",
+    "spotify-web-api-node": "^5.0.2",
+    "dotenv": "^16.3.1",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
