@@ -1,0 +1,8 @@
+{
+    "prefix": "!",
+    "defaultVolumn": 50,
+    "maxVolumn": 100,
+    "maxQueueSize": 100,
+    "embedColor": "#FF0000",
+    "supportServer": "https://discord.gg/yoursupport"
+}
